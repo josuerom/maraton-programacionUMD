@@ -14,7 +14,7 @@ monedas que tiene Alicia es igual al número de monedas que tiene Bárbara y es 
 de Cerene. En otras palabras, si Policarpo le da *A* moendas a Alicia, *B* monedas a Bárbara y *C* monedas a
 Cereno: (A + B + C = n), luego (a + A = b + B = c + C).
 
-**Tenga en cuenta que** A, B o C (es el número de monedas que Policarpo le da a Alicia, Bárbara y Cerene
+**Tenga en cuenta que:** A, B o C (es el número de monedas que Policarpo le da a Alicia, Bárbara y Cerene
 correspondientemente) puede ser 0.
 Su tarea es averiguar si es posible distribuir todas las monedas entre sus hermanas de la manera descrita
 arriba.
