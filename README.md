@@ -1,7 +1,7 @@
-## Maratón de Programacion UMD
+# Solución de Problemas del Grupo Aficionado - Maratón de Programación UMD
 
 Acá alojo el enlace a cada archivo con el problema, el original en PDF en idioma ingles y un .md a la traducción del enunciado de cada ejercicio.
 
-## Ejercicios
+# Problemas
 ### 1. Drinks (bebidas)
-Ve al documento (aquí)[https://github.com/josuerom/maraton-de-programacion-UMD/problemas/Drinks.pdf] y dale la solución el el lenguaje que desees, pero siempre y cuando cumplas con los requisitos que exige.
+Vaya al documento que contiene el problema dando click aquí [Drinks](https://github.com/josuerom/maraton-de-programacion-UMD/problems/Drinks.pdf), y dale solución en el lenguaje que desees usar, pero siempre y cuando cumplas con los requisitos que exige el problema.
