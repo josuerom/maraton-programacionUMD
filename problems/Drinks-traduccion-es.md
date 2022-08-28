@@ -1,7 +1,7 @@
 # Traducción - 1. Bebidas.pdf
 
 **Requisitos**
-- Límite de tiempo de ejecución 2000 ms (2s)
+- Límite de tiempo de ejecución 2000 ms (milisegundos)
 - Límite de memoria 262144 kB (kilobytes)
 
 **Enunciado**
