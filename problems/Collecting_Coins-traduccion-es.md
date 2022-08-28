@@ -22,9 +22,9 @@ Tienes que responder casos de prueba independientes.
 
 **Entrada**
 
-La primera línea de la entrada contiene un número entero *t* (1 <= *t* <= 10^4), el número de casos de prueba.
+La primera línea de la entrada contiene un número entero *t* (1 ≤ *t* ≤ 10^4), el número de casos de prueba.
 
-Las siguientes líneas *t* describen casos de prueba. Cada caso de prueba se da en una nueva línea y consta de cuatro números enteros separados por espacios (a, b, c y n) deben estar comprendidos entre (1 <= *a,b,c,n* <= 10^8) — el número de monedas que tiene Alicia, el número de monedas de Bárbara, el número de monedas que tiene Cerene y el número de monedas que tiene Policarpo.
+Las siguientes líneas *t* describen casos de prueba. Cada caso de prueba se da en una nueva línea y consta de cuatro números enteros separados por espacios (a, b, c y n) deben estar comprendidos entre (1 ≤ *a,b,c,n* ≤ 10^8) — el número de monedas que tiene Alicia, el número de monedas de Bárbara, el número de monedas que tiene Cerene y el número de monedas que tiene Policarpo.
 
 **Salida**
 
