@@ -1,9 +1,12 @@
 package interfaz;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-
+/**
+ * @author josuerom
+*/
 public class CollectingCoins {
     public static void main(String[] args) {
         pc2Read();
@@ -67,9 +70,9 @@ public class CollectingCoins {
                     } else {
                         System.out.println("NO");
                     }
-                } // Fin else
+                }
                 test_case--;
-            } // Fin while
+            }
             buffer.close();
 
         } catch (NumberFormatException e) {
