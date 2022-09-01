@@ -1,8 +1,11 @@
 package interfaz;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+/**
+ * @author josuerom
+*/
 public class Drinks {
     public static void main(String[] args) {
         pc2Read();
