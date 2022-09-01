@@ -13,7 +13,7 @@ Teniendo en cuenta el aumento fijo ofrecido por FAAMG Inc y el salario de cada m
 
 **Entrada**
 
-La primera línea de entrada contiene dos enteros: n (1 < n < 30), que indica el número de miembros del equipo y r (1 < r < 500000), que indica el aumento fijo ofrecido por FAAMGInc. Cada una de las siguientes n líneas de entrada contiene un número entero (entre 1 y 200000, ambos inclusive) que indica el salario actual de un miembro del equipo.
+La primera línea de entrada contiene dos enteros: n (1 ≤ n ≤ 30), que indica el número de miembros del equipo y r (1 ≤ r ≤ 500000), que indica el aumento fijo ofrecido por FAAMGInc. Cada una de las siguientes n líneas de entrada contiene un número entero (entre 1 y 200000, ambos inclusive) que indica el salario actual de un miembro del equipo.
 
 **Salida**
 
