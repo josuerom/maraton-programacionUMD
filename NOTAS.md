@@ -1,3 +1,3 @@
 # Reunión ArcGis Online: Mapas y aplicaciones web y geográficas - Angelica Molina - ESRI
 
-El programa **ArcGis** sirve para aquellos profesionales que trabajen con la geolocalización o tierra. Además, es uno de los aplicativos más utilizados.
+ArcGIS es un completo sistema que permite recopilar, organizar, administrar, analizar, compartir y distribuir información geográfica. Como la plataforma líder mundial para crear y utilizar sistemas de información geográfica (SIG), ArcGIS es utilizada por personas de todo el mundo para poner el conocimiento geográfico al servicio de los sectores del gobierno, la empresa, la ciencia, la educación y los medios. ArcGIS permite publicar la información geográfica para que esté accesible para cualquier usuario. El sistema está disponible en cualquier lugar a través de navegadores Web, dispositivos móviles como smartphones y equipos de escritorio.
