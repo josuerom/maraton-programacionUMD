@@ -6,8 +6,7 @@
 - Límite de memoria 246144 kB (kilobytes)
 
 ### Enunciado
-¡Amamos a nuestra UCF () y vamos a cambiar todo a UCF!
-Dada una cadena, cambie la cadena a UCF de la siguiente manera:
+¡Amamos a nuestra UCF (Universidad de Florida Central) y vamos a cambiar todo a UCF! Dada una cadena, cambie la cadena a UCF de la siguiente manera:
 
 - Los caracteres antes de la "U" más a la izquierda en la cadena se cambian por un guión "-".
 - Los caracteres antes de la "F" más a la derecha en la cadena se cambian a guión.
