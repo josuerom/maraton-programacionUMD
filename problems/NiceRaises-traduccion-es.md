@@ -1,9 +1,9 @@
 # Traducción - 3. Raíces agradables.
 
 **Requisitos**
-- **Nombre del archivo fuente:** Nice.c Nice.cpp Nice.java Nice.py
-- **Entrada:**    Estándar
-- **Salida:** Estándar
+- Nombre del archivo fuente: Nice.c Nice.cpp Nice.javaNice.py
+- Límite de tiempo de ejecución 2000 ms (milisegundos)
+- Límite de memoria 262144 kB (kilobytes)
 
 **Enunciado**
 
