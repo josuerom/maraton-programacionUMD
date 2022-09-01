@@ -14,7 +14,7 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 - [Collecting_Coins.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/2.%20Collecting_Coins.pdf)
 
 ### 3. Nice_Raises (Raíces agradables)
-- [Nice_Raises.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/3.%20Nice_Raise.pdf)
+- [Nice_Raises.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/3.%20Nice_Raises.pdf)
 
 ### 4. Changing_Strings (Cambiando cadenas)
 - [.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/4.%20Changing_Strings.pdf)
@@ -25,4 +25,4 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 ### 6. It’s_a_Mod_Mod_Mod_Mod_World (Es un mundo mod mod...)
 - [It’s_a_Mod_Mod_Mod_Mod_World.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/6.%20It’s_a_Mod_Mod_Mod_Mod_World.pdf)
 
-### 7. En construcción
+### 7. En progreso
