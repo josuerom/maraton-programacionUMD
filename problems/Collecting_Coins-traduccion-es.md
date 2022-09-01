@@ -1,10 +1,10 @@
 # Traducción - 2. Coleccionar Monedas.pdf
 
-**Requisitos**
+### Requisitos
 - Límite de tiempo de ejecución 2000 ms (2s)
 - Límite de memoria 262144 kB (kilobytes)
 
-**Enunciado**
+### Enunciado
 
 Policarpo tiene tres hermanas: **Alicia, Bárbara y Cerene.** Están recogiendo monedas. Actualmente, Alicia
 tiene *a* monedas, Bárbara tiene *b* monedas y Cerene tiene *c* monedas. Recientemente Policarpo ha regresado de
@@ -20,17 +20,17 @@ Su tarea es averiguar si es posible distribuir todas las monedas entre sus herma
 arriba.
 Tienes que responder casos de prueba independientes.
 
-**Entrada**
+### Entrada
 
 La primera línea de la entrada contiene un número entero *t* (1 ≤ *t* ≤ 10^4), el número de casos de prueba.
 
 Las siguientes líneas *t* describen casos de prueba. Cada caso de prueba se da en una nueva línea y consta de cuatro números enteros separados por espacios (a, b, c y n) deben estar comprendidos entre (1 ≤ *a,b,c,n* ≤ 10^8) — el número de monedas que tiene Alicia, el número de monedas de Bárbara, el número de monedas que tiene Cerene y el número de monedas que tiene Policarpo.
 
-**Salida**
+### Salida
 
 Para cada caso de prueba, escriba "YES" si Policarpo puede distribuir todas las monedas entre sus hermanas y "NO" de lo contrario.
 
-**Muestra 1**
+#### Muestra 1
 | Input                    | Output |
 | ------------------------ | ------ |
 | 5                        |        |
