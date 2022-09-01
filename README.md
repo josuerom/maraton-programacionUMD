@@ -3,7 +3,7 @@
 Acá alojo el enlace a cada archivo con el problema, el original en PDF en idioma ingles y un .md a la traducción del enunciado de cada ejercicio.
 
 # Soluciones
-En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/src/interfaz) le comparto la solución de cada uno los problemas que he publicado hasta el momento.
+En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/src/interfaz) le comparto la solución de cada uno los problemas que he publicado hasta el momento. Además, de las [Translations](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/problems/traducciones) de cada problema al español.
 
 # Problemas
 ### 1. Drinks (Bebidas)
@@ -17,7 +17,7 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 - [Nice_Raises.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/3.%20Nice_Raises.pdf)
 
 ### 4. Changing_Strings (Cambiando cadenas)
-- [.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/4.%20Changing_Strings.pdf)
+- [Changing_Strings.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/4.%20Changing_Strings.pdf)
 
 ### 5. Heavy_Numbers (Números pesados)
 - [Heavy_Numbers.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/5.%20Heavy_Numbers.pdf)
