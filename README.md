@@ -7,11 +7,22 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 
 # Problemas
 ### 1. Drinks (Bebidas)
-Dirijase al documento que contiene el problema dando click aquí [Drinks.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/), y dale solución en el lenguaje que desees usar, pero siempre y cuando cumplas con los requisitos que exige el problema.
+- [Drinks.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/1.%20Drinks.pdf)
 
 
 ### 2. Collecting Coins (Coleccionar monedas)
-Dirijase al documento que contiene el problema dando click aquí [Collecting_Coins.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/), y dale solución en el lenguaje que desees usar, pero siempre y cuando cumplas con los requisitos que exige el problema.
+- [Collecting_Coins.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/2.%20Collecting_Coins.pdf)
 
-### 3. ...
-Por asignar
+### 3. Nice_Raises (Raíces agradables)
+- [Nice_Raises.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/3.%20Nice_Raise.pdf)
+
+### 4. Changing_Strings (Cambiando cadenas)
+- [.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/4.%20Changing_Strings.pdf)
+
+### 5. Heavy_Numbers (Números pesados)
+- [Heavy_Numbers.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/5.%20Heavy_Numbers.pdf)
+
+### 6. It’s_a_Mod_Mod_Mod_Mod_World (Es un mundo mod mod...)
+- [It’s_a_Mod_Mod_Mod_Mod_World.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/6.%20It’s_a_Mod_Mod_Mod_Mod_World.pdf)
+
+### 7. En construcción
