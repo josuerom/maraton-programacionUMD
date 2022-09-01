@@ -1,4 +1,4 @@
-# Traducción - 4. Cambiando cadenas
+# Traducción - 4. Cambiando cadenas.pdf
 
 ### Requisitos
 - Nombre del archivo fuente: Changingstr.c, Changingstr.cpp, Changingstr.java, Changingstr.py
