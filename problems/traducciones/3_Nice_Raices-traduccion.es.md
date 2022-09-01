@@ -1,4 +1,4 @@
-# Traducción - 3. Raíces agradables.
+# Traducción - 3. Raíces agradables.pdf
 
 ### Requisitos
 - Nombre del archivo fuente: Nice.c Nice.cpp Nice.javaNice.py
