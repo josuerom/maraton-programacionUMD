@@ -23,7 +23,7 @@ Imprime la cadena de entrada convertida a UCF.
 #### Muestra 1
 | Input                  | Output            |
 | ---------------------- | ----------------- |
-| ABUDEGHFXYZ            | --UCCCCF          |
+| ABUDEGHFXYZ            | --UCCCCF---       |
 | CCUZF                  | --UCF             |
-| ABFABCUABABFABUABFABUAB| ------UCCCCCCCCCCF|
-| UABCFABCDE             | UCCCF             |
+| ABFABCUABABFABUABFABUAB| ------UCCCCCCCCCCF-----|
+| UABCFABCDE             | UCCCF-----             |
