@@ -25,3 +25,10 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 - [It’s_a_Mod_Mod_Mod_Mod_World.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/6.%20It’s_a_Mod_Mod_Mod_Mod_World.pdf)
 
 ### 7. En desarrollo
+- [](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/7.%20)
+
+### 8. En desarrollo
+- [](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/8.%20)
+
+### 9. En desarrollo
+- [](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/9.%20)
