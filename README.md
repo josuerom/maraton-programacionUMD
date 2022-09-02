@@ -32,3 +32,6 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 
 ### 9. En desarrollo
 - [](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/9.%20)
+
+### Tipos de datos en JAVA
+![table](https://github.com/josuerom/maraton-programacionUMD/blob/main/tipos_de_datos_java.jpg)
