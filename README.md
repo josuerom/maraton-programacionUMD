@@ -1,6 +1,6 @@
 # Solución de Problemas del Grupo Aficionado - Maratón de Programación UMD
 
-Acá alojo el enlace a cada archivo con el problema, el original en PDF en idioma ingles y un .md a la traducción del enunciado de cada ejercicio.
+Este repositorio tiene como propósito compartir soluciones de problemas. Además, se adjunta se le comparte la solución, un archivo PDF en idioma ingles y un .md a la traducción del enunciado de cada ejercicio a español. Posteriormente, realizo uso de los problemas que hasta la fecha nos han asignado como grupo,  para práctica y mejorar nuestra lógica de programación. 
 
 # Soluciones
 En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/src/interfaz) le comparto la solución de cada uno los problemas que he publicado hasta el momento. Además, de las [Translations](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/problems/traducciones) de cada problema al español.
