@@ -12,32 +12,40 @@ public class Itsamod {
         pc2Read();
     }
 
-    public static void process(int[] vec) {
-        //TODO: terminar de resolver el problema 6
-        
+    public static void process(int p, int q, int n) {
+        int[] arr = new int[2];
+        for (int i = 1; i <= n; i++) {
+            arr[0] = (p*i);
+            arr[1] += (arr[0] % q);
+        }
+        System.out.println(arr[1]);
+        arr[1] = 0;
     }
 
     public static void pc2Read() {
         String vec[], line = "";
-        int[] arr = new int[3];
-        int casos = 0;
+        int p = 0, q = 0, n = 0;
+        int test = 0;
 
         BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
 
         try {
             line = buffer.readLine();
-            casos = Integer.valueOf(line);
+            test = Integer.valueOf(line);
 
-            vec = new String[3];
-            line = buffer.readLine();
-            vec = line.split(" ");
+            while (test >= 1) {
+                vec = new String[3];
+                line = buffer.readLine();
+                vec = line.split(" ");
 
-            for (int i = 0; i < 3; i++) {
-                arr[i] = Integer.valueOf(vec[i]);
+                p = Integer.valueOf(vec[0]);
+                q = Integer.valueOf(vec[1]);
+                n = Integer.valueOf(vec[2]);
+
+                process(p, q, n);
+                test--;
             }
-
             buffer.close();
-            process(arr);
         } catch (NullPointerException e) {
             e.printStackTrace();
         } catch (IOException e) {
