@@ -3,12 +3,11 @@
 Este repositorio tiene como propósito compartir soluciones de problemas. Además, se adjunta la solución, también un archivo PDF en idioma ingles y un .md con la traducción y explicación del problema para cada ejercicio. Posteriormente, realizo uso de los problemas que hasta la fecha nos han asignado como grupo, para prácticar y mejorar nuestra lógica de programación. **¡Somos Aficionados!**
 
 # Soluciones
-En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/src/interfaz) le comparto la solución de cada uno los problemas que he publicado hasta el momento. Además, de las [Translations](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/problems/traducciones) de cada problema al español.
+En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/src/interfaz) comparto la solución de cada uno los problemas que nos han colocado hasta el momento. Además, de las [Translations](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/problems/traducciones) de cada punto.
 
-# Problemas
+# Problemas a resolver
 ### 1. Drinks (Bebidas)
 - [Drinks.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/1.%20Drinks.pdf)
-
 
 ### 2. Collecting Coins (Coleccionar monedas)
 - [Collecting_Coins.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/2.%20Collecting_Coins.pdf)
@@ -25,4 +24,4 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 ### 6. It’s_a_Mod_Mod_Mod_Mod_World (Es un mundo mod mod...)
 - [It’s_a_Mod_Mod_Mod_Mod_World.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/6.%20It’s_a_Mod_Mod_Mod_Mod_World.pdf)
 
-### 7. En progreso
+### 7. En desarrollo
