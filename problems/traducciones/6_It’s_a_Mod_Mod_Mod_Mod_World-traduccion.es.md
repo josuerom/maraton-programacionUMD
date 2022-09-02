@@ -6,7 +6,7 @@
 - Límite de memoria 246144 kB (kilobytes)
 
 ### Enunciado
-Tiene varios problemas con tres números enteros p, q y n, encuentre (sumatoria de n hasta i=1 [(pi * i) mod q]). Es decir, los primeros n múltiplos de p, módulo q, sumados. Tenga en cuenta que la suma total no tiene módulo.
+Tiene varios problemas con tres números enteros p, q y n, encuentre (sumatoria de i=1 hasta n [(p * i) * mod q]). Es decir, los primeros n múltiplos de p, módulo q, sumados. Tenga en cuenta que la suma total no tiene módulo.
 
 ### Entrada
 Cada entrada comenzará con una línea con un solo número entero W (1 ≤ W ≤ 10^5), que es el número de casos que debe resolver.
