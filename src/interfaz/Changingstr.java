@@ -1,4 +1,4 @@
-package interfaz;
+package mundo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,60 +8,58 @@ import java.io.InputStreamReader;
  * @author josuerom
  */
 public class Changingstr {
-
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         pc2Read();
     }
-    
+
     public static void process(String[] caracters) {
-        byte size = (byte) caracters.length, lengthU = 0, lengthF = 0, pos = -1;
-        boolean primerCaracter = false;
-        
-        if (caracters.length >= 3 && caracters.length <= 30) { 
-            
-            for (int i = 0; i < size; i++) {
-                for (int j = i; j < size; j++) {
-                    if (caracters[j].equals("U")) {
-                        pos++;
-                        primerCaracter = true;
-                    } else if (primerCaracter == false) {
-                        lengthU++;
-                        pos++;
+        byte size = (byte) caracters.length, position = 0, lengthF = 0;
+
+        if (size >= 3 && size <= 30) {
+            for (byte l = 0; l < size; l++) {
+                if (caracters[l].equals("U")) {
+                    position = (byte) (l+1);
+                    l = size;
+                    lengthF = (byte) (size - 1);
+
+                    for (byte i = (byte) (size-1); i >= position; i--) {
+                        if (caracters[i].equals("F")) {
+                            i = -1;
+                        } else {
+                            caracters[i] = "-";
+                            lengthF--;
+                        }
                     }
-                }
-                
-                for (int l = i; l < lengthU; l++) {
+                    break;
+                } else {
                     caracters[l] = "-";
                 }
-                
-                lengthU = 0;
-                i = (pos + 1);
-                pos = -1;
-                primerCaracter = false;
             }
-            System.out.println("Cantidad de letras que hay antes de la primera U: " + lengthU);
-            for (String s : caracters) {
+
+            for (byte k = position; k < lengthF; k++) {
+                    caracters[k] = "C";
+            }
+            // Imprimo la nueva cadena transformada a UCF
+            for (String s: caracters) {
                 System.out.print(s);
             }
-            
-        }// fin if
-        
+        }
     }
-    
+
     public static void pc2Read() {
-        String caracters[], line = "";
+        String strVec[], line = "";
         BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
-        
+
         try {
             line = buffer.readLine();
-            caracters = line.split("");
+            strVec = line.split("");
 
-            process(caracters);
+            process(strVec);
             buffer.close();
         } catch (NullPointerException e) {
             e.printStackTrace();
-        } catch (IOException e) {
+        }catch (IOException e) {
             e.printStackTrace();
-        } 
+        }
     }
 }
