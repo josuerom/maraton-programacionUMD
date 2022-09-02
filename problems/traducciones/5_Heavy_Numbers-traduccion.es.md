@@ -1,4 +1,4 @@
-# Traducción - 6. Números pesados
+# Traducción - 6. Números pesados.pdf
 
 ### Requisitos
 - Nombre del archivo de origen: Heavy.c, Heavy.cpp, Heavy.java, Heavy.py
