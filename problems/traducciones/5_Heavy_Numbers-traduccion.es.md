@@ -7,10 +7,10 @@
 
 ### Enunciado
 Considere un entero positivo a. Definimos el peso de a como:
-(número de dígitos en a) * (suma de los dígitos en a)
+- (número de dígitos en a) * (suma de los dígitos en a)
 
-Por ejemplo, si a = 5767, el peso de a es:
-(4) * (5 + 7 + 6 + 7) = 100
+Por ejemplo, si a = 5767.
+- El peso de a es: (4) * (5 + 7 + 6 + 7) = 100
 
 Dados dos números enteros positivos, determine cuál pesa más, es decir, es más pesado.
 
