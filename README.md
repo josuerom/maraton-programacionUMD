@@ -24,14 +24,38 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 ### 6. It’s_a_Mod_Mod_Mod_Mod_World (Es un mundo mod mod...)
 - [It’s_a_Mod_Mod_Mod_Mod_World.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/6.%20It’s_a_Mod_Mod_Mod_Mod_World.pdf)
 
-### 7. En desarrollo
-- [](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/7.%20)
+### 7. Direction_Change (Cambio de dirección)
+- [Direction_Change.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/7.%20Direction_Change.pdf)
 
-### 8. En desarrollo
-- [](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/8.%20)
+### 8. Abstract Art (Arte abstracto)
+- [Abstract_Art.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/8.%20Abstract_Art.pdf)
 
-### 9. En desarrollo
-- [](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/9.%20)
+### 9. Craters (Cráteres)
+- [Craters.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/9.%20Craters.pdf)
+
+### 10. DRM_Messagues (Mensajes DRM)
+- [DRM_Messages.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/10.%20DRM_Messages.pdf)
+
+### 11. Game_of_Throwns (Juego de lanzamientos)
+- [Game_of_Throwns.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/11.%20Game_of_Throwns.pdf)
+
+### 12. Is-A? Has-A? Who Knows-A? (¿Es un? ¿Tiene un? ¿Quién sabe-A?)
+- [Is-A?_Has-A?_Who_Knows-A?.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/12.%20Is-A_Has-A_Who_Knowz-A.pdf)
+
+### 13. Keeping_on_Track (Mantener en la pista)
+- [Keeping_on_Track.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/13.%20Keeping_On_Track.pdf)
+
+### 14. Question_of_Ingestion (Pregunta de ingestión)
+- [Question_of_Ingestion.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/14.%20A_Question_of_Ingestion.pdf)
+
+### 15. Sheba's_Amoebas (Amebas de sheba)
+- [Sheba's_Amoebas.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/15.%20Sheba%C2%B4s_Amoebas.pdf)
+
+### 16. Twenty_Four_Again (Veinticuatro otra vez)
+- [Twenty_Four_Again.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/16.%20Twenty_Four_Again.pdf)
+
+### 17. Workout_for_a_Dumbbell (Entrenamiento para una mancuerna)
+- [Workout_for_a_Dumbbell.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/17.%20Workout_for_a_Dumbbell.pdf)
 
 ### Tipos de datos en JAVA
 ![table](https://github.com/josuerom/maraton-programacionUMD/blob/main/tipos_de_datos_java.jpg)
