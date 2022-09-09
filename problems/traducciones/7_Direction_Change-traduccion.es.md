@@ -10,12 +10,14 @@ Tienes una cuadrícula con n filas y m columnas. Las filas y columnas se numeran
 
 Inicialmente, estás parado en la esquina superior izquierda (1,1). Tu objetivo es llegar a la esquina inferior derecha (n, m).
 
+Puede moverse en cuatro direcciones desde (a, b): hacia arriba (a - 1, b), hacia abajo (a + 1, b), hacia la izquierda (a,b - 1) o hacia la derecha (a,b + 1).
+
 Puedes moverte en la misma dirección en dos movimientos consecutivos y no puedes salir de la cuadrícula. ¿Cuál es el número mínimo de movimientos para llegar a (n, m)?
 
 ### Entrada
 La entrada consiste en múltiples casos de prueba. La primera línea contiene un solo entero *t* (1 < *t* < 10^3) - el número de casos de prueba. A continuación se presenta la descripción de los casos de prueba.
 
-La segunda línea de cada caso de prueba contiene dos números enteros *n* y *m* (1 ≤ *n, m* ≤ 10^9), el tamaño de la cuadrícula.
+La primera línea de cada caso de prueba contiene dos números enteros *n* y *m* (1 ≤ *n, m* ≤ 10^9), el tamaño de la cuadrícula.
 
 ### Salida
 Para cada caso de prueba, imprima un solo número entero: -1 si es imposible alcanzar (n, m) en las condiciones dadas, de lo contrario, el número mínimo de movimientos.
