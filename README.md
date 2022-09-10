@@ -64,13 +64,12 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 | Primitivo | Entero | short | 16 bits | -32.768 | 32767 | 0 |
 | Primitivo | Entero | int | 32 bits | -2.147.483.648 | 2.147.483.647 | 0 |
 | Primitivo | Entero | long | 64 bits | -9.223.372.036.854.775.808 | 9.223.372.036.854.775.807 | 0 |
-| Primitivo | Decimal | float | 32 bits | -3,402823E+38 | 3,402823E+38 |  |
-| Primitivo | Decimal | double | 64 bits | -1,79769313586232E+308 | 1,79769313586232E+308 |  |
+| Primitivo | Decimal | float | 32 bits | -3,402823E+38 | 3,402823E+38 | 0.0f |
+| Primitivo | Decimal | double | 64 bits | -1,79769313586232E+308 | 1,79769313586232E+308 | 0.0 |
 | Primitivo | Carácter | char | 16 bits | \u0000 | \uffff | \u0000 |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |
+| Primitivo | Lógicos | boolean | 1 bit | false | true | false |
+| Estructurado | Cadena de carácteres | String | peso de cadena | Una letra o un número en texto | Letras o carácteres ilimitados | void |
+| Objeto | Entero | BigInteger | 32 bits | Puede almacenar cualquier número entero grande |  | null |
+| Objeto | Decimal | BigDecimal | 32 bits | Puede almacenar cualquier número decimal grande |  | null |
 
 ![table](https://github.com/josuerom/maraton-programacionUMD/blob/main/tipos_de_datos_java.jpg)
