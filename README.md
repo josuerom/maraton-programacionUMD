@@ -69,5 +69,5 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 | Primitivo | Carácter | char | 16 bits | \u0000 | \uffff | \u0000 |
 | Primitivo | Lógicos | boolean | 1 bit | false | true | false |
 | Estructurado | Cadena de carácteres | String | dinámico | Una letra o un número de texto | Letras o carácteres infinitos | void |
-| Objeto | Entero | BigInteger | 32 bits | Puede almacenar cualquier número entero grande | null |
-| Objeto | Decimal | BigDecimal | 32 bits | Puede almacenar cualquier número decimal grande | null |
+| Objeto | Entero | BigInteger | 32 bits | Puede almacenar cualquier número entero grande | | null |
+| Objeto | Decimal | BigDecimal | 32 bits | Puede almacenar cualquier número decimal grande | | null |
