@@ -57,5 +57,20 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 ### 17. Workout_for_a_Dumbbell (Entrenamiento para una mancuerna)
 - [Workout_for_a_Dumbbell.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/17.%20Workout_for_a_Dumbbell.pdf)
 
-### Tipos de datos en JAVA
+### Tabla de Tipos de Datos en JAVA
+| Tipod de dato | Almacena | Tipo de origen | Memoria | Valor mínimo | Valor máximo | Valor por defecto |
+| ------------- | -------- | -------------- | ------- | ------------ | ------------ | ----------------- |
+| Primitivo | Entero | byte | 8 bits | -128 | 127 | 0 |
+| Primitivo | Entero | short | 16 bits | -32.768 | 32767 | 0 |
+| Primitivo | Entero | int | 32 bits | -2.147.483.648 | 2.147.483.647 | 0 |
+| Primitivo | Entero | long | 64 bits | -9.223.372.036.854.775.808 | 9.223.372.036.854.775.807 | 0 |
+| Primitivo | Decimal | float | 32 bits | -3,402823E+38 | 3,402823E+38 |  |
+| Primitivo | Decimal | double | 64 bits | -1,79769313586232E+308 | 1,79769313586232E+308 |  |
+| Primitivo | Carácter | char | 16 bits | \u0000 | \uffff | \u0000 |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+
 ![table](https://github.com/josuerom/maraton-programacionUMD/blob/main/tipos_de_datos_java.jpg)
