@@ -58,7 +58,7 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 - [Workout_for_a_Dumbbell.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/17.%20Workout_for_a_Dumbbell.pdf)
 
 ### Tabla de Tipos de Datos en JAVA
-| Tipod de dato | Almacena | Tipo de origen | Memoria | Valor mínimo | Valor máximo | Valor por defecto |
+| Tipo de dato | Almacena | Tipo de origen | Tamaño | Valor mínimo | Valor máximo | Valor por defecto |
 | ------------- | -------- | -------------- | ------- | ------------ | ------------ | ----------------- |
 | Primitivo | Entero | byte | 8 bits | -128 | 127 | 0 |
 | Primitivo | Entero | short | 16 bits | -32.768 | 32.767 | 0 |
