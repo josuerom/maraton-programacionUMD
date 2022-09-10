@@ -61,7 +61,7 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 | Tipod de dato | Almacena | Tipo de origen | Memoria | Valor mínimo | Valor máximo | Valor por defecto |
 | ------------- | -------- | -------------- | ------- | ------------ | ------------ | ----------------- |
 | Primitivo | Entero | byte | 8 bits | -128 | 127 | 0 |
-| Primitivo | Entero | short | 16 bits | -32.768 | 32767 | 0 |
+| Primitivo | Entero | short | 16 bits | -32.768 | 32.767 | 0 |
 | Primitivo | Entero | int | 32 bits | -2.147.483.648 | 2.147.483.647 | 0 |
 | Primitivo | Entero | long | 64 bits | -9.223.372.036.854.775.808 | 9.223.372.036.854.775.807 | 0 |
 | Primitivo | Decimal | float | 32 bits | -3,402823E+38 | 3,402823E+38 | 0.0 |
