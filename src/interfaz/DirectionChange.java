@@ -22,15 +22,23 @@ public class DirectionChange {
          } else if ((n == 1 && m >= 3) || (n >= 3 && m == 1)) {
             System.out.println("-1");
          } else {
-            if ((n % 2 == 0 && m % 2 == 0) || (n % 3 == 0 && m % 3 == 0)) {
-               if (n == m) {
-                  System.out.println((n * 2) - 2);
-               } else {
-                  System.out.println((n > m) ? ((n * 2) - 2) : ((m * 2) - 3));
+            if (n == m) {
+               System.out.println((n * 2) - 2);
+            } else if (n != m) {
+               if ((n%2==0 && m%3==0) || (n%3==0 && m%2==0)) {
+                  if (n > m) {
+                     System.out.println((m * 2) - 3);
+                  } else if (m > n) {
+                     System.out.println((n * 2) - 3);
+                  }
                }
-            }
-            if ((n % 2 == 0 && m % 3 == 0) || (n % 3 == 0 && m % 2 == 0)) {
-               System.out.println((n > m) ? ((n * 2) - 2) : ((m * 2) - 3));
+               if ((n%2==0 && m%2==0) || (n%3==0 && m%3==0)) {
+                  if (n > m) {
+                     System.out.println((n * 2) - 2);
+                  } else if (m > n) {
+                     System.out.println((m * 2) - 2);
+                  }
+               }
             }
          }
       }// fin instrucción de control principal
