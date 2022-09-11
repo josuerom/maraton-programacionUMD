@@ -15,7 +15,7 @@ Puede moverse en cuatro direcciones desde (a, b): hacia arriba (a - 1, b), hacia
 Puedes moverte en la misma dirección en dos movimientos consecutivos y no puedes salir de la cuadrícula. ¿Cuál es el número mínimo de movimientos para llegar a (n, m)?
 
 ### Entrada
-La entrada consiste en múltiples casos de prueba. La primera línea contiene un solo entero *t* (1 < *t* < 10^3) - el número de casos de prueba. A continuación se presenta la descripción de los casos de prueba.
+La entrada consiste en múltiples casos de prueba. La primera línea contiene un solo entero *t* (1 ≤ *t* ≤ 10^3) - el número de casos de prueba. A continuación se presenta la descripción de los casos de prueba.
 
 La primera línea de cada caso de prueba contiene dos números enteros *n* y *m* (1 ≤ *n, m* ≤ 10^9), el tamaño de la cuadrícula.
 
