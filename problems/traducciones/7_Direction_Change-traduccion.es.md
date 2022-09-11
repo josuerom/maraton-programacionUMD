@@ -1,7 +1,7 @@
 # Traducción - 7. Cambio de dirección.pdf
 
 ### Requisitos
-- Nombre del archivo de origen: DirectionChangue.c, DirectionChangue.cpp, DirectionChangue.java, DirectionChangue.py
+- Nombre del archivo de origen: DirectionChange.c, DirectionChange.cpp, DirectionChange.java, DirectionChange.py
 - Límite de tiempo: 1000ms
 - Límite de memoria: 262144 kB
 
