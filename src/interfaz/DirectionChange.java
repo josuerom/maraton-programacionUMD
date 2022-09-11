@@ -3,7 +3,6 @@ package interfaz;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
 public class DirectionChange {
 
@@ -12,36 +11,49 @@ public class DirectionChange {
    }
 
    public static void process(String[] vec) {
-      int n = Integer.valueOf(vec[0]), m = Integer.valueOf(vec[1]);
+      long n = Long.valueOf(vec[0]), m = Long.valueOf(vec[1]);
 
       if ((n >= 1 && n <= 1000000000) && (m >= 1 && m <= 1000000000)) {
          if (n == 1 && m == 1) {
             System.out.println("0");
          } else if ((n == 1 && m == 2) || (n == 2 && m == 1)) {
-               System.out.println("1");
+            System.out.println("1");
          } else if ((n == 1 && m >= 3) || (n >= 3 && m == 1)) {
             System.out.println("-1");
          } else {
-            if (n == m) {
-               System.out.println((n * 2) - 2);
-            } else if (n != m) {
-               if ((n%2==0 && m%3==0) || (n%3==0 && m%2==0)) {
-                  if (n > m) {
-                     System.out.println((m * 2) - 3);
-                  } else if (m > n) {
-                     System.out.println((n * 2) - 3);
-                  }
+            if (n % 2 == 0 && m % 2 == 0) {
+               if (n < m) {
+                  System.out.println((m * 2) - 2);
+               } if (n > m) {
+                  System.out.println((n * 2) - 2);
+               } if (n == m) {
+                  System.out.println((n * 2) - 2);
                }
-               if ((n%2==0 && m%2==0) || (n%3==0 && m%3==0)) {
-                  if (n > m) {
-                     System.out.println((n * 2) - 2);
-                  } else if (m > n) {
-                     System.out.println((m * 2) - 2);
-                  }
+            } if (n % 3 == 0 && m % 3 == 0) {
+               if (n < m) {
+                  System.out.println((m * 2) - 2);
+               } if (n > m) {
+                  System.out.println((n * 2) - 2);
+               } if (n == m) {
+                  System.out.println((n * 2) - 2);
+               }
+            }
+
+            if (n % 2 == 0 && m % 2 == 1) {
+               if (n < m) {
+                  System.out.println((m * 2) - 3);
+               } else {
+                  System.out.println((n * 2) - 3);
+               }
+            } if (n % 2 == 1 && m % 2 == 0) {
+               if (n < m) {
+                  System.out.println((m * 2) - 3);
+               } else {
+                  System.out.println((n * 2) - 3);
                }
             }
          }
-      }// fin instrucción de control principal
+      }
    }
 
    public static void pc2Read() {
