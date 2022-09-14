@@ -2,19 +2,18 @@
 Liga Colombiana de Programación Colegiada - CCPL 2018
 
 ### Requisitos
-Nombre del archivo de origen: Abstract.c, Abstract.cpp, Abstract.java o Abstract.py
-Tiempo límite: 2000 ms
-Memoria límite: 262144 kB
+- Nombre del archivo de origen: Abstract.c, Abstract.cpp, Abstract.java o Abstract.py
+- Tiempo límite: 2000 ms
+- Memoria límite: 262144 kB
 
 ### Enunciado
-Arty ha sido un artista abstracto desde la infancia y su trabajo ha tomado muchas formas. Sus últimas (y más costosas) creaciones se conocen cariñosamente como Arte abstracto dentro de la comunidad de arte abstracto (no son el grupo más original cuando se trata de apodos amorosos). Aquí hay un ejemplo de uno de los trabajos recientes de Arty:
+Arty ha sido un artista abstracto desde la infancia y su trabajo ha tomado muchas formas. Sus últimas (y más costosas) creaciones se conocen cariñosamente como Arte Abstracto dentro de la comunidad de arte abstracto (no son el grupo más original cuando se trata de apodos amorosos). Aquí hay un ejemplo de uno de los trabajos recientes de Arty:
 
-- Un ejemplo del arte de Arty, se encuentra en el PDF orignal.
+- Un ejemplo del arte de Arty, se encuentra en el PDF orignal por lo que no es necesaria verla.
 
 Como puede ver, el arte abstracto se crea pintando polígonos (posiblemente superpuestos). Cuando Arty pinta uno de sus diseños siempre pinta cada polígono completamente antes de pasar al siguiente.
 
-El precio de las piezas individuales del Arte abstracto de Arty varía mucho según su atractivo estético, pero los coleccionistas exigen dos datos sobre cada pintura:
-
+El precio de las piezas individuales del arte abstracto de Arty varía mucho según su atractivo estético, pero los coleccionistas exigen dos datos sobre cada pintura:
 1. La cantidad total de pintura utilizada, y
 2. La cantidad total de lona cubierta.
 
