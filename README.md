@@ -60,8 +60,8 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 ### 18. Common_Permutation (Permutación común)
 - [Common_Permutation.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/18.%20Common_Permutation.pdf)
 
-### 19. Hanol_Tower_Troubles_Again! (¡La torre de Hanol vuelve a tener problemas!)
-- [Hanol_Tower_Troubles_Again!.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/19.%20Hanol_Tower_Troubles_Again!.pdf)
+### 19. Hanoi_Tower_Troubles_Again! (¡La torre de Hanoi vuelve a tener problemas!)
+- [Hanoi_Tower_Troubles_Again!.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/19.%20Hanoi_Tower_Troubles_Again!.pdf)
 
 ### Tabla de Tipos de Datos en JAVA
 | Tipo de dato | Almacena | Tipo de origen | Tamaño | Valor mínimo | Valor máximo | Valor por defecto |
