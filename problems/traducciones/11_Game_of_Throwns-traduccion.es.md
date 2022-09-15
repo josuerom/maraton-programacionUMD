@@ -19,7 +19,7 @@ Por ejemplo, si hay 5 niños y el maestro dice los cuatro comandos twrow 8 -2 3 
 
 A Daenerys le gustaría un pequeño programa que determine dónde debe terminar el huevo si sus comandos se ejecutan correctamente. No preguntes qué pasa con los niños si este no es el caso.
 
-###Entrada
+### Entrada
 La entrada consta de dos líneas. La primera línea contiene dos números enteros positivos *n k* (1 <= *n* <= 30, 1 <= *k* <= 30) que indican el número de estudiantes y cuántos comandos lanza Daenerys, respectivamente. La siguiente línea contiene los comandos *k* throw. Cada comando es un número entero *p* (-10000 <= *p* <= 10000) que indica cuántas posiciones lanzar el huevo en el sentido de las agujas del reloj o deshacer *m (m >= 1)* que indica que los últimos lanzamientos de *m* deben ser deshecho La entrada debe leerse desde la entrada estándar.
 
 ### Salida
