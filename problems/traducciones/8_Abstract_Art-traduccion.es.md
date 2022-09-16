@@ -29,8 +29,8 @@ Muestre tanto la cantidad total de pintura utilizada como la cantidad de lienzo 
 | Entrada | Salida |
 | ------- | ------ |
 | 3 | |
-| 8 7 10 7 17 10 20 17 20 20 17 20 10 17 7 10 7 | 315.000|
-| 4 0 0 0 8 8 8 8 0 | 258.500 |
+| 8 7 10 7 17 10 20 17 20 20 17 20 10 17 7 10 7 | 315.000 258.500 |
+| 4 0 0 0 8 8 8 8 0 |  |
 | 4 3 3 3 13 13 13 13 3 | |
 
 #### Enlace al PDF original
