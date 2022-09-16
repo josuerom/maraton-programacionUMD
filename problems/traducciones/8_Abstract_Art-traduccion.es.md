@@ -22,12 +22,10 @@ Tenga en cuenta que el primer valor será mayor que el segundo siempre que haya 
 ### Entrada
 La primera línea de entrada contiene un único número entero *n* (1 ≤ *n* ≤ 100) que representa el número de polígonos que se pintarán. A continuación hay n líneas, cada una de las cuales describe un polígono pintado. Cada descripción de polígono comienza con un número entero *m* (3 ≤ *m* ≤ 20) que indica el número de lados del polígono, seguido de *m* pares de números enteros *x y* (0 ≤ *x, y* ≤ 1000) que especifican las coordenadas de los vértices del polígono en orden consecutivo. Los polígonos pueden ser cóncavos pero ningún polígono se cruzará a sí mismo. Ningún punto del lienzo será tocado por más de dos segmentos de borde de polígono.
 
-La entrada debe leerse desde la entrada estándar.
-
 ### Salida
 Muestre tanto la cantidad total de pintura utilizada como la cantidad de lienzo cubierto. Muestra estos números con exactamente tres lugares decimales, redondeados.
 
-La salida debe escribirse en la salida estándar.
+#### Muestra 1
 | Entrada | Salida |
 | ------- | ------ |
 | 3 | |
