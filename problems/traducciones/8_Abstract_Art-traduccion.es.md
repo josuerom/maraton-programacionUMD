@@ -1,5 +1,5 @@
 # Traducción - 8. Arte abstracto.pdf
-Liga Colombiana de Programación Colegiada - CCPL 2018
+Liga Colombiana de Programación Colegiada - LCPC 2018
 
 ### Requisitos
 - Nombre del archivo de origen: Abstract.c, Abstract.cpp, Abstract.java o Abstract.py
