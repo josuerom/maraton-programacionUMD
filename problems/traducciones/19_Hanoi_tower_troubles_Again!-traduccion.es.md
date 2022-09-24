@@ -6,7 +6,7 @@
 - Memoria límite: 256144 kB
 
 ### Enunciado
-Hay muchas variaciones interesantes en el problema de la Torre de Hanoi. Esta versión consta de N clavijas y una bola que contiene cada número de 1, 2, 3,....,∞. Siempre que la suma de los números de dos bolas no sea un cuadrado perfecto (es decir, c ^ 2 para algún número entero c), se repelerán entre sí con tanta fuerza que nunca podrán tocarse.
+Hay muchas variaciones interesantes en el problema de la Torre de Hanoi. Esta versión consta de N clavijas y una bola que contiene cada número de 1, 2, 3,....,∞. Siempre que la suma de los números de dos bolas no sea un cuadrado perfecto (es decir, c^2 para algún número entero c), se repelerán entre sí con tanta fuerza que nunca podrán tocarse.
 
 El jugador debe colocar las bolas en las clavijas de una en una, en orden creciente de número de bolas (es decir, primero la bola 1, luego la bola 2, luego la bola 3...). El juego termina donde no hay movimiento que no sea repelente.
 
