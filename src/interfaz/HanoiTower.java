@@ -1,36 +1,34 @@
 package interfaz;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Drinks {
+public class HanoiTower {
     public static void main(String[] args) {
         pc2Read();
     }
 
-    public static void process(int n, String[] vec) {
-        double result = 0;
-
-        for (String s : vec) {
-            double p = Double.parseDouble(s);
-            result += (p != 0) ? (p / n) : 0;
-        }
-        System.out.printf("%.12f", result);
+    public static void process(byte n) {
+        short result = (n % 2 == 0) ? (short) ((n * n) / 2 + (n - 1)) : (short) ((n * n) / 2 + n);
+        System.out.println(result);
     }
 
     public static void pc2Read() {
-        String vec[], line;
-        int n;
+        String line;
+        byte t, n;
 
         BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
 
         try {
             line = buffer.readLine();
-            n = Integer.parseInt(line);
+            t = Byte.valueOf(line);
 
-            line = buffer.readLine();
-            vec = line.split(" ");
-            process(n, vec);
+            while (t-- >= 1) {
+                line = buffer.readLine();
+                n = Byte.valueOf(line);
+                process(n);
+            }
             buffer.close();
         } catch (NullPointerException e) {
             e.printStackTrace();

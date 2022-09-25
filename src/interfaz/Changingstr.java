@@ -1,4 +1,4 @@
-package mundo;
+package interfaz;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -54,8 +54,8 @@ public class Changingstr {
             line = buffer.readLine();
             strVec = line.split("");
 
-            process(strVec);
             buffer.close();
+            process(strVec);
         } catch (NullPointerException e) {
             e.printStackTrace();
         }catch (IOException e) {
