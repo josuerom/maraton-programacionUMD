@@ -3,7 +3,7 @@
 ### Requisitos
 - Nombre del archivo origen: Permutation.c, Permutation.cpp, Permutation.java, Permutation.py
 - Tiempo límite: 2000 ms
-- Memoria límite: 256144kB
+- Memoria límite: 256144 kB
 
 ### Enunciado
 Dadas dos cadenas *a* y *b*, imprima la cadena más larga *X* de letras tal que haya una permutación de *X* que sea una subsecuencia de *a* y una permutación de *X* que sea una subsecuencia de *b*.
