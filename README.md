@@ -27,7 +27,7 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 ### 7. Direction_Change (Cambio de dirección)
 - [Direction_Change.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/7.%20Direction_Change.pdf)
 
-### 8. Abstract Art (Arte abstracto)
+### 8. Abstract Art (Arte abstracto) - Complejidad Difícil
 - [Abstract_Art.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/8.%20Abstract_Art.pdf)
 
 ### 9. Craters (Cráteres)
