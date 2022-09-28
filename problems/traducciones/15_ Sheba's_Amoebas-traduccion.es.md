@@ -10,7 +10,7 @@
 
 Después de una exitosa campaña de Kickstarter, Sheba Arriba ha recaudado suficiente dinero para su empresa de suministros biológicos por correo. "Sheba's Amoebas" puede enviar placas de Petri ya pobladas con una colonia de esos diminutos organismos unicelulares. Sin embargo, Sheba necesita poder verificar la cantidad de amebas que envía su empresa. Para cada plato, tiene una imagen en blanco y negro que ha sido preprocesada para mostrar cada ameba como un simple bucle cerrado de píxeles negros. (Un bucle es un conjunto mínimo de píxeles negros en el que cada píxel es adyacente exactamente a otros dos píxeles del conjunto; adyacente significa compartir un borde o una esquina de un píxel). Todos los píxeles negros de la imagen pertenecen a algún bucle.
 
-
+<div align="center"><img src="https://github.com/josuerom/maraton-programacionUMD/blob/main/img/15_Sheba's_Amoebas.png"></div>
 
 A Sheba le gustaría que escribieras un programa que cuente los bucles cerrados en una matriz rectangular de píxeles en blanco y negro. No hay dos bucles cerrados en la imagen que se toquen o superpongan. Se sabe que una especie particularmente desagradable de ameba caníbal rodea y engulle a sus vecinos; en consecuencia, puede haber amebas dentro de las amebas. Por ejemplo, cada una de las imágenes de la Figura 4 contiene cuatro amebas.
 
