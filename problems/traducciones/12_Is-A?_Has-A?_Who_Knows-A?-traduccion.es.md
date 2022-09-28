@@ -8,6 +8,8 @@
 ### Enunciado
 Dos conceptos familiares en la programación orientada a objetos son las relaciones (is-a) y (has-a). Dadas dos clases **A** y **B**, decimos que A (is-a) B si A es una subclase de B; decimos A (has-a) B si uno de los campos de A es de tipo B. Por ejemplo, podríamos imaginar un lenguaje orientado a objetos (llamémoslo ICPC++) con código como el de la Figura 3, donde la clase ** El día es una hora**, la cita de la clase es tanto una agenda como un recordatorio, y la cita de la clase tiene un día.
 
+<div align="center"><img src="https://github.com/josuerom/maraton-programacionUMD/blob/main/img/12_Is-A_Has-A_Who-knowz-A.png"></div>
+
 Estas dos relaciones son transitivas. Por ejemplo, si A is-a B y B is-a C, se sigue que A is-a C. Esto también es válido si cambiamos todos los is-a en la última oración por has-a. También funciona con combinaciones de is-a y has-a en el ejemplo anterior, La cita tiene un año, ya que la cita es una agenda.
 
 En este problema, habrá dado un conjunto de relaciones is-a y has-a y un conjunto de consultas de from A is/has-a B. Debe determinar si cada consulta es verdadera o falsa.
