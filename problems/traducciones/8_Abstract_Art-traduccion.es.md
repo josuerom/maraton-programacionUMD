@@ -9,7 +9,7 @@ Liga Colombiana de Programación Colegiada - LCPC 2018
 ### Enunciado
 Arty ha sido un artista abstracto desde la infancia y su trabajo ha tomado muchas formas. Sus últimas (y más costosas) creaciones se conocen cariñosamente como Arte Abstracto dentro de la comunidad de arte abstracto (no son el grupo más original cuando se trata de apodos amorosos). Aquí hay un ejemplo de uno de los trabajos recientes de Arty:
 
-- Un ejemplo del arte de Arty, se encuentra en el PDF orignal por lo que no es necesaria verla.
+<div align="center"><img src="https://github.com/josuerom/maraton-programacionUMD/blob/main/img/8_Abstract_Art.png"></div>
 
 Como puede ver, el arte abstracto se crea pintando polígonos (posiblemente superpuestos). Cuando Arty pinta uno de sus diseños siempre pinta cada polígono completamente antes de pasar al siguiente.
 
