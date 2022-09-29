@@ -18,7 +18,7 @@ El cifrado DRM es un nuevo tipo de cifrado. Dada una cadena cifrada (que llamare
 La entrada contiene un solo mensaje DRM para descifrar. Todos los caracteres de la cadena son letras mayúsculas y la longitud de la cadena es par y <= 15000. La entrada debe leerse desde la entrada estándar.
 
 ### Salida
-Muestra el mensaje DRM decrppted. La salida debe escribirse en la salida estándar.
+Muestra el mensaje DRM descifrado. La salida debe escribirse en la salida estándar.
 
 ##### Muestra 1
 | Input | Output |
