@@ -19,5 +19,6 @@ public class OrdenamientoBurbuja {
       for (int e : arr) {
          System.out.print(e + " ");
       }
+      // La complijidad del algoritmo BubbleShort en Notación Big O es de O(n^2)
    }
 }
