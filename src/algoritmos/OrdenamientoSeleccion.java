@@ -17,5 +17,6 @@ public class OrdenamientoSeleccion {
          vec[i] = min;
       }
       System.out.println(Arrays.toString(vec));
+      // La complijidad del algoritmo SelectionShort en Notación Big O es de O(n^2)
    }
 }
