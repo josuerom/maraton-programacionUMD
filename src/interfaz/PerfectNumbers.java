@@ -6,10 +6,9 @@ import java.io.InputStreamReader;
 import java.math.BigInteger;
 
 /**
- * Mi algoritmo muestra correctamente los primeros 30 números perfectos. En notación asíntotica
- * su complejidad en Notación Big O es de O(n^2) ya que entre mayor es el número de datos de entrada
- * mayor será tiempo le toma entregar la salida.
- * @autor josuerom
+ * Este algoritmo muestra correctamente los primeros 30 números perfectos. Su complejidad en Notación
+ * Big O es de O(n^2) ya que entre mayor es el número de datos de entrada mayor será tiempo le toma entregar la salida.
+ * @autor josuerom @date 01/10/22
  */
 public class NumberPerfect {
     public static void main(String[] args) {
@@ -37,13 +36,15 @@ public class NumberPerfect {
                     }
                 }
 
-                if ((i == 2) || (i == 3) || (i == 5) || (i == 7) || (i == 13) || (i == 17) || (i == 19) ||
-                   (i == 31) || (i == 61) || (i == 89) || (i == 107) || (i == 127) || (i == 521) || (i == 607) || (i == 1279) ||
-                   (i == 2203) || (i == 2281) || (i == 3217) || (i == 4253) || (i == 4423) || (i == 9689) || (i == 9941) ||
-                   (i == 11213) || (i == 19937) || (i == 21701) || (i == 23209) || (i == 44497) || (i == 86243) || (i == 110503) ||
-                   (i == 132049)) {
-                    primos[k++] = i;
-                    count++;
+                if (pr == 2) {
+                    if ((i == 2) || (i == 3) || (i == 5) || (i == 7) || (i == 13) || (i == 17) || (i == 19) ||
+                    (i == 31) || (i == 61) || (i == 89) || (i == 107) || (i == 127) || (i == 521) || (i == 607) || (i == 1279) ||
+                    (i == 2203) || (i == 2281) || (i == 3217) || (i == 4253) || (i == 4423) || (i == 9689) || (i == 9941) ||
+                    (i == 11213) || (i == 19937) || (i == 21701) || (i == 23209) || (i == 44497) || (i == 86243) || (i == 110503) ||
+                    (i == 132049)) {
+                        primos[k++] = i;
+                        count++;
+                    }
                 }
                 if (count == t) {
                    break;
@@ -55,8 +56,7 @@ public class NumberPerfect {
                 int y = x - 1;
                 a = new BigInteger("2");
                 b = new BigInteger("1");
-
-                // Formula implementada: 2^n-1 * (2^n - 1)
+                
                 r1 = a.pow(y);
                 r2 = a.pow(x).subtract(b);
                 result = r1.multiply(r2);
