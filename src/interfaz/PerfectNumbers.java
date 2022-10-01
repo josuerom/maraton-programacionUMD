@@ -8,9 +8,9 @@ import java.math.BigInteger;
 /**
  * Este algoritmo muestra correctamente los primeros 30 números perfectos. Su complejidad en Notación
  * Big O es de O(n^2) ya que entre mayor es el número de datos de entrada mayor será tiempo le toma entregar la salida.
- * @autor josuerom @date 01/10/22
+ * @autor josuerom @fecha 01/10/22
  */
-public class NumberPerfect {
+public class PerfectNumbers {
     public static void main(String[] args) {
         pc2Read();
     }
