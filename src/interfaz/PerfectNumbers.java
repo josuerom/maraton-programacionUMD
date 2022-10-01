@@ -16,7 +16,7 @@ public class PerfectNumbers {
     }
 
     public static void pc2Read() {
-        BigInteger a, b, r1, r2, result;
+        BigInteger a, b, result;
         String line;
         int t, k = 0;
 
@@ -56,10 +56,8 @@ public class PerfectNumbers {
                 int y = x - 1;
                 a = new BigInteger("2");
                 b = new BigInteger("1");
-                
-                r1 = a.pow(y);
-                r2 = a.pow(x).subtract(b);
-                result = r1.multiply(r2);
+
+                result = a.pow(y).multiply(a.pow(x).subtract(b));
                 System.out.println(result);
             }
         } catch (NullPointerException e) {
