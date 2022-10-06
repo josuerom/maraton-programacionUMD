@@ -13,44 +13,42 @@ public class DirectionChange {
    public static void process(String[] vec) {
       long n = Long.valueOf(vec[0]), m = Long.valueOf(vec[1]);
 
-      if ((n >= 1 && n <= 1000000000) && (m >= 1 && m <= 1000000000)) {
-         if (n == 1 && m == 1) {
-            System.out.println("0");
-         } else if ((n == 1 && m == 2) || (n == 2 && m == 1)) {
-            System.out.println("1");
-         } else if ((n == 1 && m >= 3) || (n >= 3 && m == 1)) {
-            System.out.println("-1");
-         } else {
-            if (n % 2 == 0 && m % 2 == 0) {
-               if (n < m) {
-                  System.out.println((m * 2) - 2);
-               } if (n > m) {
-                  System.out.println((n * 2) - 2);
-               } if (n == m) {
-                  System.out.println((n * 2) - 2);
-               }
-            } if (n % 3 == 0 && m % 3 == 0) {
-               if (n < m) {
-                  System.out.println((m * 2) - 2);
-               } if (n > m) {
-                  System.out.println((n * 2) - 2);
-               } if (n == m) {
-                  System.out.println((n * 2) - 2);
-               }
+      if (n == 1 && m == 1) {
+         System.out.println("0");
+      } else if ((n == 1 && m == 2) || (n == 2 && m == 1)) {
+         System.out.println("1");
+      } else if ((n == 1 && m >= 3) || (n >= 3 && m == 1)) {
+         System.out.println("-1");
+      } else {
+         if (n % 2 == 0 && m % 2 == 0) {
+            if (n < m) {
+               System.out.println((m * 2) - 2);
+            } if (n > m) {
+               System.out.println((n * 2) - 2);
+            } if (n == m) {
+               System.out.println((n * 2) - 2);
             }
+         } if (n % 3 == 0 && m % 3 == 0) {
+            if (n < m) {
+               System.out.println((m * 2) - 2);
+            } if (n > m) {
+               System.out.println((n * 2) - 2);
+            } if (n == m) {
+               System.out.println((n * 2) - 2);
+            }
+         }
 
-            if (n % 2 == 0 && m % 2 == 1) {
-               if (n < m) {
-                  System.out.println((m * 2) - 3);
-               } else {
-                  System.out.println((n * 2) - 3);
-               }
-            } if (n % 2 == 1 && m % 2 == 0) {
-               if (n < m) {
-                  System.out.println((m * 2) - 3);
-               } else {
-                  System.out.println((n * 2) - 3);
-               }
+         if (n % 2 == 0 && m % 2 == 1) {
+            if (n < m) {
+               System.out.println((m * 2) - 3);
+            } else {
+               System.out.println((n * 2) - 3);
+            }
+         } if (n % 2 == 1 && m % 2 == 0) {
+            if (n < m) {
+               System.out.println((m * 2) - 3);
+            } else {
+               System.out.println((n * 2) - 3);
             }
          }
       }
@@ -66,13 +64,10 @@ public class DirectionChange {
          line = buffer.readLine();
          t = Integer.parseInt(line);
 
-         if (t >= 1 && t <= 1000) {
-            while (t >= 1) {
-               line = buffer.readLine();
-               vec = line.split(" ");
-               process(vec);
-               t--;
-            }
+         while (t-- >= 1) {
+            line = buffer.readLine();
+            vec = line.split(" ");
+            process(vec);
          }
          buffer.close();
       } catch (NullPointerException e) {
