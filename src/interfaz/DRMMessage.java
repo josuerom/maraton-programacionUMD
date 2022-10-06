@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 public class DRMMessage {
+
     public static void main(String[] args) {
         pc2Read();
     }
@@ -47,7 +48,6 @@ public class DRMMessage {
             smp1[i] = pos1;
             smp2[i] = pos2;
         }
-        //System.out.printf("sum_positions1 = %d - sum_positions2 = %d\n", sum_positions1, sum_positions2);
 
         /* Encuentro el carácter al rotar cada una de las letras de ambas partes */
         for (int s = 0; s < size; s++) {
@@ -76,19 +76,7 @@ public class DRMMessage {
             }
             smp1[s] = result1;
             smp2[s] = result2;
-            //System.out.printf("%d - %d\n", result1, result2);
         }
-
-        /*for (int h = 0; h < size; h++) {
-            System.out.print(abecedario[smp1[h]]);
-            if (h == size-1)
-                System.out.print(" ");
-        }
-        for (int h = 0; h < size; h++) {
-            System.out.print(abecedario[smp2[h]]);
-            if (h == size-1)
-                System.out.println();
-        }*/
         decryptMessage(abecedario, smp1, smp2);
     }
 
@@ -109,7 +97,6 @@ public class DRMMessage {
 
             x = a.toCharArray();
             y = b.toCharArray();
-
             process(x, y);
         } catch (NullPointerException e) {
             e.printStackTrace();
