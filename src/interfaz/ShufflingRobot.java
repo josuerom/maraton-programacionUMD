@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class ShufflingRobot {
-
     public static void main(String[] args) {
         pc2Read();
     }
@@ -34,14 +33,15 @@ public class ShufflingRobot {
                 for (int i = 0; i < vec.length; i++) {
                     arr[i] = Byte.valueOf(vec[i]);
                 }
-                for (int i = 0; i < arr.length - 1; i++) {
-                    if (arr[i] > arr[i + 1]) {
-                        ordenado = false;
-                        break;
+                for (int i = 0, l = 0; i < arr.length - 1; i++) {
+                    if (arr[i] < arr[i + 1]) {
+                        l++;
+                        if (l == arr.length-1)
+                            ordenado = false;
                     }
                 }
 
-                if (ordenado) {
+                if (ordenado == false) {
                     System.out.println("0");
                 } else {
                     n_cartas = (byte) vec.length;
