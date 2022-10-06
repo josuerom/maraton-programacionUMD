@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Nice {
+
     public static void main(String[] args) {
         pc2Read();
     }
@@ -34,7 +35,7 @@ public class Nice {
     }
 
     public static void pc2Read() {
-        String strSalary[], line = "";
+        String strSalary[], line;
         int n, r, vec[];
 
         BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
@@ -42,9 +43,9 @@ public class Nice {
         try {
             line = buffer.readLine();
             strSalary = line.split(" ");
+           
             n = Integer.parseInt(strSalary[0]);
             r = Integer.parseInt(strSalary[1]);
-
             vec = new int[n];
 
             for (int i = 0; i < n; i++) {
@@ -53,7 +54,6 @@ public class Nice {
             }
             process(n, r, vec);
             buffer.close();
-
         } catch (NullPointerException e) {
             e.printStackTrace();
         } catch (IOException e) {
