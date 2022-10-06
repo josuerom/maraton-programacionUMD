@@ -6,11 +6,12 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 public class Permutation {
+
     public static void main(String[] args) {
         pc2Read();
     }
 
-    public static void process(String wd1[], String wd2[]) {//TODO: Correfir carácteres duplicados en la salida
+    public static void process(String wd1[], String wd2[]) {
         String permutation = "", order_str = "";
 
         one : for (int k = 0; k < wd1.length; k++) {
