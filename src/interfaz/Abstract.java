@@ -11,16 +11,80 @@ public class Abstract {
         pc2Read();
     }
 
+
     public static void process(int arr[]) {
-        int numeroDeLados = arr[0], cant_pintura = 0, cant_lienzo = 0;
+        int numeroDeLados = arr[0], cant_pintura = 0, cant_lienzo = 1;
         for (int i = 1; i < arr.length; i++) {
             cant_pintura += arr[i];
             cant_lienzo *= arr[i];
         }
-        System.out.printf("%d\n%d", cant_pintura, cant_lienzo);
+        poligonType(numeroDeLados);
+        System.out.printf(" -> pintura: %d lienzo: %d", cant_pintura, cant_lienzo);
     }
 
-    public static void convert(String arr[]) {
+    public static void poligonType(int cantidadLados) {
+        switch (cantidadLados) {
+            case 3:
+                System.out.print("Triangulo");
+                break;
+            case 4:
+                System.out.print("Cuadrado");
+                break;
+            case 5:
+                System.out.print("Pentagono");
+                break;
+            case 6:
+                System.out.print("Hexagono");
+                break;
+            case 7:
+                System.out.print("Heptagono");
+                break;
+            case 8:
+                System.out.print("Octagono");
+                break;
+            case 9:
+                System.out.print("Eneagono");
+                break;
+            case 10:
+                System.out.print("Decagono");
+                break;
+            case 11:
+                System.out.print("Endecagono");
+                break;
+            case 12:
+                System.out.print("Dodecagono");
+                break;
+            case 13:
+                System.out.print("Tridecagono");
+                break;
+            case 14:
+                System.out.print("Tetradecagono");
+                break;
+            case 15:
+                System.out.print("Pentadecagono");
+                break;
+            case 16:
+                System.out.print("Hexadecagono");
+                break;
+            case 17:
+                System.out.print("Heptadecagono");
+                break;
+            case 18:
+                System.out.print("Octadecagono");
+                break;
+            case 19:
+                System.out.print("Eneadecagono");
+                break;
+            case 20:
+                System.out.print("Icosagono");
+                break;
+            default:
+                System.out.println("Poligono no identificado");
+                break;
+        }
+    }
+
+    public static void convertArrayInteger(String arr[]) {
         int[] vec = new int[arr.length];
         for (int i = 0; i < vec.length; i++) {
             vec[i] = Integer.valueOf(arr[i]);
@@ -40,7 +104,8 @@ public class Abstract {
             while (n-- >= 1) {
                 line = buffer.readLine();;
                 vec = line.split(" ");
-                convert(vec);
+                convertArrayInteger(vec);
+                System.out.println();
             }
             buffer.close();
         } catch (NullPointerException e) {
