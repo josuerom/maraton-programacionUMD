@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class ShufflingRobot {
+
     public static void main(String[] args) {
         pc2Read();
     }
