@@ -6,19 +6,22 @@ import java.io.InputStreamReader;
 import java.math.BigInteger;
 
 /**
- * Este algoritmo muestra correctamente los primeros 30 números perfectos. Su complejidad en Notación
- * Big O es de O(n^2) ya que entre mayor es el número de datos de entrada mayor será tiempo le toma entregar la salida.
+ * la complejidad del algoritmo en Notación Asítotica Big O es de O(n^2) ya que entre mayor sea el
+ *  número de datos de entrada mayor será el tiempo que le tomará entregar la salida.
  * @autor josuerom @fecha 01/10/22
  */
 public class PerfectNumbers {
+
     public static void main(String[] args) {
         pc2Read();
     }
 
     public static void pc2Read() {
-        BigInteger a, b, result;
         String line;
         int t, k = 0;
+        BigInteger a = new BigInteger("2");
+        BigInteger b = new BigInteger("1");
+        BigInteger result;
 
         BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
 
@@ -46,19 +49,15 @@ public class PerfectNumbers {
                         count++;
                     }
                 }
-                if (count == t) {
-                   break;
-                }
+                if (count == t) { break; }
             }
 
             for (int i = 0; i < t; i++) {
                 int x = primos[i];
                 int y = x - 1;
-                a = new BigInteger("2");
-                b = new BigInteger("1");
-
                 result = a.pow(y).multiply(a.pow(x).subtract(b));
-                System.out.println(result);
+                String digitos = String.valueOf(result);
+                System.out.printf("%d -> %s (%d)\n", (i+1), result, digitos.length());
             }
         } catch (NullPointerException e) {
             e.printStackTrace();
