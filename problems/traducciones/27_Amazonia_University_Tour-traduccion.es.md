@@ -4,7 +4,7 @@
 - Nombre del archivo origen: Amazonia.c, Amazonia.cpp, Amazonia.java, Amazonia.py
 - Entrada: Entrada estándar
 - Salida: Salida estándar
-- Autor(es): José Manuel Salazar Meza - UFPS (Graduado)
+- Autor(es): Juan José Ortiz Plaza - Uni. Amazonía (Estudiante)
 
 ### Enunciado
 Amazonía Univesity te ha contratado para enseñar los n principales sitios que los nuevos estudiantes deben conocer. Para ello se debe definir una ruta en la que cada sitio se visite una sola vez en el recorrido y decir cuál es la distancia más corta posible.
