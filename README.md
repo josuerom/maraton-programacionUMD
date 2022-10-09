@@ -30,7 +30,7 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 ### 8. Abstract Art (Arte abstracto) - Complejidad Difícil
 - [Abstract_Art.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/8.%20Abstract_Art.pdf)
 
-### 9. Craters (Cráteres)
+### 9. Craters (Cráteres) - Complejidad Difícil
 - [Craters.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/9.%20Craters.pdf)
 
 ### 10. DRM_Messagues (Mensajes DRM)
@@ -78,7 +78,7 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 ### 24. Honeycomb_Havoc (Estragos de panal)
 - [Honeycomb_Havoc.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/24.%20Honeycomb_Havoc.pdf)
 
-### 25. Dividing_and_the_double_data_type_is_a_bad_idea (Dividir y el tipo de datos doble es una mala idea)
+### 25. Dividing_and_the_double_data_type_is_a_bad_idea (Dividir y el tipo de dato double es una mala idea)
 - [Dividing_and_the_double_data_type_is_a_bad_idea.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/25.%20Dividing_and_the_double_data_type_is_a_bad_idea.pdf)
 
 ### 26. Counting_Songs (Contando canciones)
