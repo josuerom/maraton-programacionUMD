@@ -84,6 +84,9 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 ### 26. Counting_Songs (Contando canciones)
 - [Counting_Songs.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/26.%20Counting_Songs.pdf)
 
+### 27. Amazonía_University_Tour (Tour universitario amazónico)
+- [Amazonía_University_Tour.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/27.%20Amazonía_University_Tour.pdf)
+
 ### Tabla de Tipos de Datos en JAVA
 | Tipo de dato | Almacena | Tipo de origen | Tamaño | Valor mínimo | Valor máximo | Valor por defecto |
 | ------------- | -------- | -------------- | ------- | ------------ | ------------ | ----------------- |
