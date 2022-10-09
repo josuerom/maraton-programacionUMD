@@ -87,6 +87,39 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 ### 27. Amazonía_University_Tour (Tour universitario amazónico)
 - [Amazonía_University_Tour.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/27.%20Amazonía_University_Tour.pdf)
 
+### 28. Organizing_SWERC (Organizando SWERC)
+- [Organizing_SWERC.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/28.%20Organizing_SWERC.pdf)
+
+### 29. Drone_Photo (Foto de dron)
+- [Drone_Photo.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/29.%20Drone_Photo.pdf)
+
+### 30. II_Derby_della_Madonnina (Derbi de la Madonnina)
+- [II_Derby_della_Madonnina.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/30.%20II_Derby_della_Madonnina.pdf)
+
+### 31. Ice_Cream_Shop (Heladería)
+- [Ice_Cream_Shop.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/31.%20Ice_Cream_Shop.pdf)
+
+### 32. Evolution_of_Weasels (Evolución de las comadrejas)
+- [Evolution_of_Weasels.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/32.%20Evolution_of_Weasels.pdf)
+
+### 33. Round_Table (Mesa redonda)
+- [Round_Table.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/33.%20Round_Table.pdf)
+
+### 34. Pandemic_Restrictions (Restricciones pandémicas)
+- [Pandemic_Restrictions.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/34.%20Pandemic_Restrictions.pdf)
+
+### 35. Antennas (Antenas)
+- [Antennas.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/35.%20Antennas.pdf)
+
+### 36. Boundary (Perímetro)
+- [Boundary.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/36.%20Boundary.pdf)
+
+### 37. Gastronomic_Event (Evento Gastronómico)
+- [Gastronomic_Event.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/37.%20Gastronomic_Event.pdf)
+
+### 38. Circular_Maze (Laberinto circular)
+- [Circular_Maze.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/38.%20Circular_Maze.pdf)
+
 ### Tabla de Tipos de Datos en JAVA
 | Tipo de dato | Almacena | Tipo de origen | Tamaño | Valor mínimo | Valor máximo | Valor por defecto |
 | ------------- | -------- | -------------- | ------- | ------------ | ------------ | ----------------- |
