@@ -15,7 +15,7 @@ Dos matemáticos y un ingeniero están auditando transacciones bancarias en caje
 Varios casos de prueba. Cada caso de prueba comienza con un número 10^3 ≤ n ≤ 10^6, que corresponde al número de transacciones. Luego sigue una lista de n−1 números de identificación xi, 10^5 ≤ xi ≤ 10^9. Los números de identificación son consecutivos y desordenados, no hay números duplicados y falta un número.
 
 ### Salida
-Para cada caso de prueba, imprima el número de identificación de la transacción xi que falta o IMPOSIBLE si los matemáticos están en lo correcto y "no es posible encontrar el número de identificación que falta".
+Para cada caso de prueba, imprima el número de identificación de la transacción xi que falta o IMPOSSIBLE si los matemáticos están en lo correcto y "no es posible encontrar el número de identificación que falta".
 
 #### Muestra 1
 | Input | Output |

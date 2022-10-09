@@ -25,7 +25,7 @@ Escriba un programa que tome como entrada una cadena y determine si la cadena es
 La única línea de entrada contiene una cadena de hasta 80 caracteres, que posiblemente incluya espacios y otros caracteres imprimibles no alfanuméricos.
 
 ### Salida
-La única línea de salida consta de la cadena SÍ si la cadena de entrada (ignorando todo excepto las letras y los dígitos) es un palíndromo en código Morse. De lo contrario, la línea de salida consta de la cadena NO. Si no hay letras o dígitos en la cadena de entrada, la salida debe ser NO.
+La única línea de salida consta de la cadena YES si la cadena de entrada (ignorando todo excepto las letras y los dígitos) es un palíndromo en código Morse. De lo contrario, la línea de salida consta de la cadena NO. Si no hay letras o dígitos en la cadena de entrada, la salida debe ser NO.
 
 #### Muestra 1
 | Input | Output |
