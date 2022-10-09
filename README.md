@@ -63,6 +63,27 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 ### 19. Hanoi_Tower_Troubles_Again! (¡La torre de Hanoi vuelve a tener problemas!)
 - [Hanoi_Tower_Troubles_Again!.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/19.%20Hanoi_Tower_Troubles_Again!.pdf)
 
+### 20. Morse_Code_Palindromes (Palindromos en códgio morse)
+- [Morse_Code_Palindromes.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/20.%Morse_Code_Palindromes.pdf)
+
+### 21. Football_Scoring (Puntuación de fútbol)
+- [Football_Scoring.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/21.%Football_Scoring.pdf)
+
+### 22. Impossible (Imposible)
+- [Impossible.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/22.%Impossible.pdf)
+
+### 23. Do_you_know_who_wrote_this_problem (¿Sabes quién escribió este problema?)
+- [Do_you_know_who_wrote_this_problem.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/23.%Do_you_know_who_wrote_this_problem.pdf)
+
+### 24. Honeycomb_Havoc (Estragos de panal)
+- [Honeycomb_Havoc.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/24.%Honeycomb_Havoc.pdf)
+
+### 25. Dividing_and_the_double_data_type_is_a_bad_idea (Dividir y el tipo de datos doble es una mala idea)
+- [Dividing_and_the_double_data_type_is_a_bad_idea.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/25.%Dividing_and_the_double_data_type_is_a_bad_idea.pdf)
+
+### 26. Counting_Songs (Contando canciones)
+- [Counting_Songs.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/26.%Counting_Songs.pdf)
+
 ### Tabla de Tipos de Datos en JAVA
 | Tipo de dato | Almacena | Tipo de origen | Tamaño | Valor mínimo | Valor máximo | Valor por defecto |
 | ------------- | -------- | -------------- | ------- | ------------ | ------------ | ----------------- |
