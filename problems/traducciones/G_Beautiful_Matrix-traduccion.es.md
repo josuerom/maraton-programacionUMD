@@ -1,7 +1,7 @@
 # Traducción - G. Hermosa matrix - Tomado de CodeForces
 
 ### Requisitos
-- Límite de tiempo por prueba: 2 segundo
+- Límite de tiempo por prueba: 2 segundos
 - Límite de memoria por prueba: 256 Mb
 - Input: Entrada estándar
 - Output: Salida estándar
