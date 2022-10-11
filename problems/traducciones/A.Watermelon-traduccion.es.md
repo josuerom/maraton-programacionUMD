@@ -17,13 +17,14 @@ La primera línea de entrada *(y la única)* contiene el número entero w (1≤ 
 ### Salida
 Escriba **YES**, si los niños pueden dividir la sandía en dos partes, cada una de ellas con un peso par de kilos; y **NO** en caso contrario.
 
-### Muestra
+#### Muestra
 | Input |
 | ----- |
 | 8 |
 | 10 |
 | 7 |
 | 5 |
+
 | Output |
 | ----- |
 | YES |

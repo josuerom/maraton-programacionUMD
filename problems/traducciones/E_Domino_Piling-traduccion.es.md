@@ -25,6 +25,7 @@ Muestra un número: el número máximo de fichas de dominó que se pueden coloca
 | Input |
 | ----- |
 | 2 4 |
+
 | Output |
 | ------ |
 | 4 |
@@ -32,6 +33,7 @@ Muestra un número: el número máximo de fichas de dominó que se pueden coloca
 | Input |
 | ----- |
 | 3 3 |
+
 | Output |
 | ------ |
 | 4 |

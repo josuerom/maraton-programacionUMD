@@ -24,6 +24,7 @@ Muestra el número de participantes que avanzan a la siguiente ronda.
 | ----- |
 | 8 5 |
 | 10 9 8 7 7 7 5 5 |
+
 | Output |
 | ------ |
 | 6 |

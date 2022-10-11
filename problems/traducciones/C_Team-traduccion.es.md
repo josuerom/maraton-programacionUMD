@@ -1,4 +1,4 @@
-# Traducción - B. Equipo - Tomado de CodeForces
+# Traducción - C. Equipo - Tomado de CodeForces
 
 ### Requisitos
 - Límite de tiempo por prueba: 2 segundos
@@ -24,6 +24,7 @@ Imprime un solo número entero: la cantidad de problemas que los amigos implemen
 | 1 1 0 |
 | 1 1 1 |
 | 1 0 0 |
+
 | Output |
 | ------ |
 | 2 |
@@ -33,6 +34,7 @@ Imprime un solo número entero: la cantidad de problemas que los amigos implemen
 | 2 |
 | 1 0 0 |
 | 0 1 1 |
+
 | Output |
 | ------ |
 | 1 |

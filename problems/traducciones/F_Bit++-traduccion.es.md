@@ -32,6 +32,7 @@ Imprime un solo entero: el valor final de x .
 | ----- |
 | 1 |
 | ++ X |
+
 | Output |
 | ------ |
 | 1 |
@@ -41,6 +42,7 @@ Imprime un solo entero: el valor final de x .
 | 2 |
 | X++ |
 | --X |
+
 | Output |
 | ------ |
 | 0 |

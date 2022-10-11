@@ -23,7 +23,7 @@ La primera línea contiene un número entero n (1 ≤ n ≤ 100). Cada u
 ### Salida
 Imprimir n líneas. La i-ésima línea debe contener el resultado de reemplazar la i-ésima palabra de los datos de entrada.
 
-### Muestra
+#### Muestra
 | Input |
 | ----- |
 | 4 |
@@ -31,6 +31,7 @@ Imprimir n líneas. La i-ésima línea debe contener el resultado de reemplazar 
 | localization |
 | internationalization |
 | pneumonoultramicroscopicsilicovolcanoconiosis |
+
 | Output |
 | ------ |
 | word |
