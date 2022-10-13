@@ -134,3 +134,6 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 | Estructurado | Cadena de carácteres | String | dinámico | Una letra o un número de texto | Letras o carácteres infinitos | void |
 | Objeto | Entero | BigInteger | 32 bits | Un número entero o nada | Cualquier número entero grande | null |
 | Objeto | Decimal | BigDecimal | 32 bits | Un número de punto flotante o nada | Cualquier número decimal grande | null |
+
+### Tabla de Tipos de Datos en JAVA
+![Image text](https://github.com/josuerom/maraton-programacionUMD/)
