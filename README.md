@@ -135,5 +135,5 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 | Objeto | Entero | BigInteger | 32 bits | Un número entero o nada | Cualquier número entero grande | null |
 | Objeto | Decimal | BigDecimal | 32 bits | Un número de punto flotante o nada | Cualquier número decimal grande | null |
 
-### Tabla de Tipos de Datos en JAVA
-![Image text](https://github.com/josuerom/maraton-programacionUMD/)
+### Tabla de Tipos de Datos en C++
+![Image text](https://github.com/josuerom/maraton-programacionUMD/blob/main/img/Tipos_de_datos_de_C%2B%2B.png)
