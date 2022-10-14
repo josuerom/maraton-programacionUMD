@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 public class Permutation {
-
     public static void main(String[] args) {
         pc2Read();
     }
