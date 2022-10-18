@@ -10,25 +10,25 @@ public class HanoiTower {
         pc2Read();
     }
 
-    public static void process(byte n) {
-        short result = (n % 2 == 0) ? (short) ((n * n) / 2 + (n - 1)) : (short) ((n * n) / 2 + n);
-        System.out.println(result);
+    public static void lastBall(byte n) {
+        long result = (n % 2 == 0) ? (long) ((n * n) / 2 + (n - 1)) : (long) ((n * n) / 2 + n);
+        System.out.println((result > 2.147.483.647) ? "-41" : result);
     }
 
     public static void pc2Read() {
         String line;
-        byte t, n;
+        int t, n;
 
         BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
 
         try {
             line = buffer.readLine();
-            t = Byte.valueOf(line);
+            t = Integer.valueOf(line);
 
             while (t-- >= 1) {
                 line = buffer.readLine();
-                n = Byte.valueOf(line);
-                process(n);
+                n = Integer.valueOf(line);
+                lastBall(n);
             }
             buffer.close();
         } catch (NullPointerException e) {
