@@ -1,7 +1,31 @@
 /**
  *  author  josuerom
- *  created 14/02/23 09:11
+ *  created 13/02/23 09:11
 **/
+
+/* // LA PEOR SOLUCIÓN
+import java.util.Scanner;
+
+public class NumeroPerfecto {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        long amount = 0, n = sc.nextInt();
+
+        for (long i = 6; amount != n; i+=2) {
+            long aux = 0;
+            for (long j = 1; j < i; j++) {
+                if (i%j == 0) aux += j;
+            }
+            if (aux == i) {
+                System.out.println(i);
+                ++amount;
+            }
+        }
+    }
+}
+*/
+
+// LA MEJOR SOLUCIÓN
 import java.math.BigInteger;
 import java.util.Scanner;
 
@@ -23,7 +47,7 @@ public class NumeroPerfecto {
             aux = 0;
         }
 
-        //Creación de objetos para almacenar grandes enteros
+        // Creación de objetos para almacenar enteros muy grandes
         BigInteger a = new BigInteger("2");
         BigInteger answer;
         for (int k = 0; k < primos.length; k++) {
