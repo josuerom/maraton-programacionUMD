@@ -2,6 +2,9 @@
 
 Este repositorio tiene como propósito compartir soluciones de problemas. Además, se adjunta la solución, también un archivo PDF en idioma ingles y un .md con la traducción y explicación del problema para cada ejercicio. Posteriormente, realizo uso de los problemas que hasta la fecha nos han asignado como grupo, para prácticar y mejorar nuestra lógica de programación. **¡Somos Aficionados!**
 
+## Enlace para descargar C++ Éstandar 20 (mingw64 2020)
+- https://winlibs.com/
+
 # Soluciones
 En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/src/interfaz) comparto la solución de cada uno los problemas que nos han colocado hasta el momento. Además, de las [Translations](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/problems/traducciones) de cada punto.
 
