@@ -1,9 +1,10 @@
 /**
  *  author  josuerom
- *  created 13/02/23 09:11
+ *  created 13/02/23 21:11
 **/
 
-/* // LA PEOR SOLUCIÓN
+/*
+// LA PEOR SOLUCIÓN
 import java.util.Scanner;
 
 public class NumeroPerfecto {
@@ -25,7 +26,7 @@ public class NumeroPerfecto {
 }
 */
 
-// LA MEJOR SOLUCIÓN
+// UNA SOLUCIÓN MÁS ÓPTIMA
 import java.math.BigInteger;
 import java.util.Scanner;
 
@@ -50,6 +51,6 @@ public class NumeroPerfecto {
         for (int k = 0; k < n; k++) {
             System.out.println(a.pow(primos[k]-1).multiply(a.pow(primos[k]).subtract(new BigInteger("1"))));
         }
-        // Éste programa solo muestra hasta los primeros 51 primeros números perfectos nada más.
+        // Éste programa solo muestra los primeros 51 números perfectos nada más.
     }
 }
