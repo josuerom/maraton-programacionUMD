@@ -1,14 +1,13 @@
-/******************************************
-* @AUTHOR:            JOSUEROM            *
-* @UNIVERSITY: MINUTE OF GOD OF COLOMBIA  *
-******************************************/
+/**
+* author:  josuerom
+* created: 13/02/23 15:26
+**/
 #pragma GCC optimize("03,unroll-loops")
-#include <iostream>
-#include <cstring>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
+   ios::sync_with_stdio(false); cin.tie(0);
    char s[10000], clone[10000], c[1];
    string str, aux;
    cin.getline(s, 10000, '\n');
@@ -25,6 +24,6 @@ int main() {
       if (f%2!=0) aux += str[i++];
       else aux += clone[j++];
    }
-   cout << aux << endl;
+   cout << aux << '\n';
    return 0;
 }
