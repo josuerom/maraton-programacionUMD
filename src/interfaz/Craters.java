@@ -1,46 +1,30 @@
-package interfaz;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.Scanner;
 
 public class Craters {
-    private static final double PI = 3.14;
-    private static double result;
-    private static double desviacion;
-
     public static void main(String[] args) {
-        pc2Read();
-    }
-
-    public static void process(double r) {
-        result += (2 * PI) * r;
-        desviacion += 35.096;
-    }
-
-    public static void pc2Read() {
-        String vec[], line = "";
-        int n;
-
-        BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
-
-        try {
-            line = buffer.readLine();
-            n = Integer.parseInt(line);
-
-            while (n-- >= 1) {
-                line = buffer.readLine();
-                vec = line.split(" ");
-                double radio = Double.parseDouble(vec[2]);
-                process(radio);
-            }
-
-            System.out.printf("%.3f\n", (result - desviacion));
-            buffer.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (NullPointerException e) {
-            e.printStackTrace();
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int[][] craters = new int[n][3];
+        for (int i = 0; i < n; i++) {
+            craters[i][0] = scanner.nextInt();
+            craters[i][1] = scanner.nextInt();
+            craters[i][2] = scanner.nextInt();
         }
+        // Encuentra el círculo más externo que cubra todos los cráteres
+        int[] outerCircle = craters[0];
+        for (int i = 1; i < n; i++) {
+            int[] crater = craters[i];
+            if (Math.sqrt(Math.pow(crater[0] - outerCircle[0], 2) + Math.pow(crater[1] - outerCircle[1], 2)) + crater[2] > outerCircle[2]) {
+                // El cráter está fuera del círculo más externo actual, actualiza el círculo
+                double d = Math.sqrt(Math.pow(crater[0] - outerCircle[0], 2) + Math.pow(crater[1] - outerCircle[1], 2));
+                outerCircle[0] = (int) (crater[0] + (crater[2] - d) * (crater[0] - outerCircle[0]) / d);
+                outerCircle[1] = (int) (crater[1] + (crater[2] - d) * (crater[1] - outerCircle[1]) / d);
+                outerCircle[2] = (int) (crater[2] + (crater[2] - d));
+            }
+        }
+        // Calcula el perímetro del círculo más externo
+        double perimeter = 2 * Math.PI * outerCircle[2];
+        // Redondea el resultado y lo muestra
+        System.out.printf("%.3f\n", perimeter);
     }
 }
