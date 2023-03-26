@@ -1,193 +1,72 @@
-package interfaz;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.util.*;
 
 public class Abstract {
-    private static int areas = 0;
 
     public static void main(String[] args) {
-        pc2Read();
-    }
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt(); // número de polígonos
 
-
-    public static void process(int arr[]) {
-        int numeroDeLados = arr[0], cant_pintura = 0, cant_lienzo = 1;
-        for (int i = 1; i < arr.length; i++) {
-            cant_pintura += arr[i];
-            cant_lienzo *= arr[i];
-        }
-        poligonType(numeroDeLados);
-        System.out.printf(" -> pintura: %d lienzo: %d", cant_pintura, cant_lienzo);
-    }
-
-    public static void poligonType(int cantidadLados) {
-        switch (cantidadLados) {
-            case 3:
-                System.out.print("Triangulo");
-                break;
-            case 4:
-                System.out.print("Cuadrado");
-                break;
-            case 5:
-                System.out.print("Pentagono");
-                break;
-            case 6:
-                System.out.print("Hexagono");
-                break;
-            case 7:
-                System.out.print("Heptagono");
-                break;
-            case 8:
-                System.out.print("Octagono");
-                break;
-            case 9:
-                System.out.print("Eneagono");
-                break;
-            case 10:
-                System.out.print("Decagono");
-                break;
-            case 11:
-                System.out.print("Endecagono");
-                break;
-            case 12:
-                System.out.print("Dodecagono");
-                break;
-            case 13:
-                System.out.print("Tridecagono");
-                break;
-            case 14:
-                System.out.print("Tetradecagono");
-                break;
-            case 15:
-                System.out.print("Pentadecagono");
-                break;
-            case 16:
-                System.out.print("Hexadecagono");
-                break;
-            case 17:
-                System.out.print("Heptadecagono");
-                break;
-            case 18:
-                System.out.print("Octadecagono");
-                break;
-            case 19:
-                System.out.print("Eneadecagono");
-                break;
-            case 20:
-                System.out.print("Icosagono");
-                break;
-            default:
-                System.out.println("Poligono no identificado");
-                break;
-        }
-    }
-
-    public static void convertArrayInteger(String arr[]) {
-        int[] vec = new int[arr.length];
-        for (int i = 0; i < vec.length; i++) {
-            vec[i] = Integer.valueOf(arr[i]);
-        }
-        process(vec);
-    }
-    public static void pc2Read() {
-        String vec[], line;
-        byte n;
-
-        BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
-
-        try {
-            line = buffer.readLine();
-            n = Byte.valueOf(line);
-
-            while (n-- >= 1) {
-                line = buffer.readLine();;
-                vec = line.split(" ");
-                convertArrayInteger(vec);
-                System.out.println();
+        List<int[]> vertices = new ArrayList<>();
+        // leer vértices de los polígonos
+        for (int i = 0; i < n; i++) {
+            int m = input.nextInt(); // número de lados del polígono
+            int[] polygon = new int[2 * m]; // coordenadas de los vértices
+            for (int j = 0; j < 2 * m; j++) {
+                polygon[j] = input.nextInt();
             }
-            buffer.close();
-        } catch (NullPointerException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
+            vertices.add(polygon);
         }
-    }
-}
 
-class Poligonos {
+        double area = calculateArea(vertices); // calcular área total
+        double paint = area * 2.0; // cantidad total de pintura (factor de k = 2)
+        double canvas = calculateConvexHullPerimeter(vertices); // cantidad total de lienzo cubierto
 
-    public static int triangulo(int base, int altura) {
-        int result = (base * altura) / 2;
-        return result * 4;
+        // mostrar resultados con tres lugares decimales, redondeados
+        System.out.printf("%.3f %.3f\n", paint, canvas);
     }
-    public static int cuadrado(int lado1, int lado2) {
-        int result = 0;
-        return result;
+
+    // calcular el área total de los polígonos
+    public static double calculateArea(List<int[]> vertices) {
+        double area = 0.0;
+        for (int[] polygon : vertices) {
+            area += shoelace(polygon);
+        }
+        return area;
     }
-    public static int pentagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
+
+    // calcular el área de un polígono utilizando la fórmula de Shoelace
+    public static double shoelace(int[] polygon) {
+        int n = polygon.length / 2;
+        double sum1 = 0.0, sum2 = 0.0;
+        for (int i = 0; i < n; i++) {
+            sum1 += polygon[2 * i] * polygon[(2 * i + 3) % (2 * n)];
+            sum2 += polygon[2 * i + 1] * polygon[(2 * i + 2) % (2 * n)];
+        }
+        return Math.abs(sum1 - sum2) / 2.0;
     }
-    public static int hexagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
+
+    // calcular el perímetro de la envolvente convexa de los vértices
+    public static double calculateConvexHullPerimeter(List<int[]> vertices) {
+        int n = vertices.size();
+        int[][] points = new int[n][2];
+        for (int i = 0; i < n; i++) {
+            points[i][0] = vertices.get(i)[0];
+            points[i][1] = vertices.get(i)[1];
+        }
+        int[] hull = GrahamScan.getConvexHull(points);
+        double perimeter = 0.0;
+        for (int i = 0; i < hull.length; i++) {
+            int[] p1 = points[hull[i]];
+            int[] p2 = points[hull[(i + 1) % hull.length]];
+            perimeter += distance(p1, p2);
+        }
+        return perimeter;
     }
-    public static int hepagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int octagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int eneagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int decagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int endecagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int dodecagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int tridecagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int tetradecagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int pentadecagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int hexadecagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int heptadecagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int octadecagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int eneadecagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
-    }
-    public static int icosagono(int lado1, int lado2) {
-        int result = 0;
-        return result;
+
+    // calcular la distancia euclidiana entre dos puntos
+    public static double distance(int[] p1, int[] p2) {
+        int dx = p1[0] - p2[0];
+        int dy = p1[1] - p2[1];
+        return Math.sqrt(dx * dx + dy * dy);
     }
 }
