@@ -1,14 +1,14 @@
-# Solución de Problemas del Grupo Aficionado - Maratón de Programación UMD
+# Soluciones del Grupo 2 Bits(); - Maratón de Programación UMD
 
-Este repositorio tiene como propósito compartir soluciones de problemas. Además, se adjunta la solución, también un archivo PDF en idioma ingles y un .md con la traducción y explicación del problema para cada ejercicio. Posteriormente, realizo uso de los problemas que hasta la fecha nos han asignado como grupo, para prácticar y mejorar nuestra lógica de programación. **¡Somos Aficionados!**
+Este repositorio tiene como propósito compartir soluciones de problemas. También compartimos los PDF en idioma ingles y un .md con la traducción y explicación de cada problema. Posteriormente, les presento los famosos problemas que hasta la fecha nos han asignado como grupo, para prácticar y mejorar la lógica de programación. **¡Solo somos 2 aficionados empedernidos!**
 
-## Enlace para descargar C++ Éstandar 20 (mingw64 2020)
+## Descargar C++ Éstandar 20 (mingw64 2020)
 - https://winlibs.com/
 
 # Soluciones
-En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/src/interfaz) comparto la solución de cada uno los problemas que nos han colocado hasta el momento. Además, de las [Translations](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/problems/traducciones) de cada punto.
+En el siguiente enlace [Soluciones](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/src/interfaz) encuentran la solución de cada uno los problemas y tambíen la [Traducción](https://github.com/josuerom/maraton-de-programacion-UMD/tree/main/problems/traducciones) de cada punto.
 
-# Problemas a resolver
+# Problemas resueltos
 ### 1. Drinks (Bebidas)
 - [Drinks.pdf](https://github.com/josuerom/maraton-de-programacion-UMD/blob/main/problems/1.%20Drinks.pdf)
 
@@ -123,7 +123,7 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 ### 38. Circular_Maze (Laberinto circular)
 - [Circular_Maze.pdf](https://github.com/josuerom/maraton-programacionUMD/blob/main/problems/38.%20Circular_Maze.pdf)
 
-### Tabla de Tipos de Datos en JAVA
+### Tipos de Datos en JAVA
 | Tipo de dato | Almacena | Tipo de origen | Tamaño | Valor mínimo | Valor máximo | Valor por defecto |
 | ------------- | -------- | -------------- | ------- | ------------ | ------------ | ----------------- |
 | Primitivo | Entero | byte | 8 bits | -128 | 127 | 0 |
@@ -138,5 +138,5 @@ En el siguiente enlace [Solutions](https://github.com/josuerom/maraton-de-progra
 | Objeto | Entero | BigInteger | 32 bits | Un número entero o nada | Cualquier número entero grande | null |
 | Objeto | Decimal | BigDecimal | 32 bits | Un número de punto flotante o nada | Cualquier número decimal grande | null |
 
-### Tabla de Tipos de Datos en C++
+### Tipos de Datos en C++
 ![Image text](https://github.com/josuerom/maraton-programacionUMD/blob/main/img/Tipos_de_datos_de_C%2B%2B.png)
